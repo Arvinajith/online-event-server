@@ -6,7 +6,7 @@ import Event from "../models/Event.js";
 dotenv.config();
 
 async function run() {
-  const mongoUri = process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/event_platform";
+  const mongoUri = process.env.MONGODB_URI || "mongodb+srv://ajithkumar:ajithkumar@cluster0.tyhgl76.mongodb.net/event_platform";
   await mongoose.connect(mongoUri);
   console.log("✅ Connected to MongoDB");
 
