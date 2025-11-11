@@ -21,6 +21,7 @@ const allowedOrigins = [
   "http://localhost:5173",
   "http://localhost:5174",
   "http://localhost:5175",
+  "https://cute-sable-c28e19.netlify.app",
   frontendUrl,
 ];
 
